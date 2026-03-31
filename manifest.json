@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Flipkart Review Scraper",
+  "version": "1.0",
+  "description": "Scrape Flipkart product reviews into a JSON file, specifically designed for Brave and Chrome.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "downloads"
+  ],
+  "host_permissions": [
+    "*://*.flipkart.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Flipkart Scraper"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.flipkart.com/*"],
+      "js": ["selectors.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
