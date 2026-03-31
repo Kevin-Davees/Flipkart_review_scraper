@@ -60,7 +60,7 @@ The extension collects review data directly from the webpage.
 
 1. Clone this repository
 
-git clone https://github.com/yourusername/flipkart-review-scraper.git
+git clone https://github.com/Kevin-Davees/Flipkart_review_scraper.git
 
 2. Open your browser extension page
 
