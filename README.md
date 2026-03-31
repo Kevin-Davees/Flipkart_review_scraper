@@ -168,8 +168,9 @@ This approach keeps the tool simple, stable, and easy to maintain.
 
 ## Project Structure
 
-flipkart-review-scraper
-
+```
+flipkart-review-scraper/
+│
 ├── manifest.json
 ├── popup.html
 ├── popup.js
@@ -177,6 +178,8 @@ flipkart-review-scraper
 ├── background.js
 ├── styles.css
 └── README.md
+```
+
 
 ---
 
