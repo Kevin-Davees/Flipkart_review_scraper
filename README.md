@@ -228,7 +228,3 @@ Steps:
 4. Submit a Pull Request
 
 ---
-
-
-GitHub:
-https://github.com/yourusername
